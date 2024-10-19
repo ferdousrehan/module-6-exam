@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<div class="card">
+		<h2>Registration Form</h2>
+		<form action="#">
+			
+			<!-- Name and Username Row Starts -->
+			<div class="form-row">
+				<div class="form-col">
+					<div>
+						<label for="fullName">Full Name</label>
+					</div>
+					<div>
+						<input type="text" id="fullName" name="fullName" placeholder="Enter your name">
+					</div>
+				</div>
+				<div class="form-col">
+					<div>
+						<label for="userName">Username</label>
+					</div>
+					<div>
+						<input type="text" id="userName" name="userName" placeholder="Enter your username">
+					</div>
+				</div>
+			</div>
+			
+			<!-- Email and Phone Row Starts -->
+			<div class="form-row">
+				<div class="form-col">
+					<div>
+						<label for="email">Email</label>
+					</div>
+					<div>
+						<input type="email" id="email" name="email" placeholder="Enter your email">
+					</div>
+				</div>
+				<div class="form-col">
+					<div>
+						<label for="phoneNumber">Phone Number</label>
+					</div>
+					<div>
+						<input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number">
+					</div>
+				</div>
+			</div>
+			
+			<!-- Password and Confirm Password Row Starts -->
+			<div class="form-row">
+				<div class="form-col">
+					<div>
+						<label for="password">Password</label>
+					</div>
+					<div>
+						<input type="password" id="password" name="password" placeholder="Enter your password">
+					</div>
+				</div>
+				<div class="form-col">
+					<div>
+						<label for="confirmPassword">Confirm Password</label>
+					</div>
+					<div>
+						<input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password">
+					</div>
+				</div>
+			</div>
+			
+			<!-- Gender Row Starts -->
+			<div class="gender-box">
+				<div>
+					<span>Gender</span>
+					<input type="radio" id="male" name="gender" value="Male">
+					<label for="male">Male</label>
+					
+					<input type="radio" id="female" name="gender" value="Female">
+					<label for="female">Female</label>
+					
+					<input type="radio" id="other" name="gender" value="other">
+					<label for="other">Other</label>
+					
+				</div>
+			</div>
+			<div class="submit-box">
+				<input type="button" value="Cancel">
+				<input type="submit" value="Submit">
+			</div>
+		</form> 
+	</div>
+</body>
+</html>
